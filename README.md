@@ -32,7 +32,7 @@ print("Dataset downloaded to:", path)
 If you place the dataset elsewhere, update the `data_dir` variable in `config.py`.
 By default, the data_dir has the path to the data folder, update as required.
 
-# Cloning the Repository
+## Cloning the Repository
 The final_weights.pth is ~290 Mb and hence was uploaded using lfs.
 
 To clone this repository along with large files managed by Git LFS, follow these steps:
@@ -55,6 +55,8 @@ This ensures that all large files (such as model weights) are properly downloade
 > **Note:**  
 > If you do not have Git LFS installed on your system, install it first:
 
+### Alternative,
+Use google drive to download checkpoints folder with final_weight.pth : [https://drive.google.com/drive/folders/1uPDW4gPW1_Ogiv8c6vmeR3xPrvoxwTIw?usp=share_link]
 
 ## Model Architecture
 The model is a Convolutional Neural Network (CNN) with the following architecture:
